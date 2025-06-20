@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnico en Computadoras y Cursos Linux | [Tu Nombre]</title>
+    <style>
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0072ff, #00c6ff);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Servicios */
+        #servicios {
+            padding: 60px 0;
+            background: white;
+        }
+        .servicios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .servicio-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            transition: transform 0.3s;
+        }
+        .servicio-card:hover {
+            transform: translateY(-10px);
+        }
+        .servicio-card h3 {
+            color: #0072ff;
+            margin-bottom: 15px;
+        }
+
+        /* Cursos Linux */
+        #cursos {
+            padding: 60px 0;
+            background: #f9f9f9;
+        }
+        .curso-info {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .curso-info ul {
+            text-align: left;
+            margin-top: 20px;
+            list-style-position: inside;
+        }
+
+        /* Contacto */
+        #contacto {
+            padding: 60px 0;
+            background: white;
+            text-align: center;
+        }
+        .contacto-btn {
+            display: inline-block;
+            background: #0072ff;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .contacto-btn:hover {
+            background: #005bb5;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Hero -->
+    <header>
+        <div class="container">
+            <h1>[Tu Nombre]</h1>
+            <p>Servicios técnicos especializados y cursos prácticos de Linux</p>
+        </div>
+    </header>
+
+    <!-- Servicios -->
+    <section id="servicios" class="container">
+        <h2 style="text-align: center; margin-bottom: 20px;">Mis Servicios</h2>
+        <div class="servicios-grid">
+            <div class="servicio-card">
+                <h3>Mantenimiento de Computadoras</h3>
+                <p>Limpieza interna, optimización de sistema, instalación de programas y más.</p>
+            </div>
+            <div class="servicio-card">
+                <h3>Reparación de Hardware</h3>
+                <p>Cambio de piezas, solución de fallas físicas y diagnóstico preciso.</p>
+            </div>
+            <div class="servicio-card">
+                <h3>Eliminación de Virus</h3>
+                <p>Limpieza de malware, protección de datos y asesoría en seguridad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Linux -->
+    <section id="cursos">
+        <div class="container">
+            <div class="curso-info">
+                <h2>Curso Práctico de Linux</h2>
+                <p>Aprende desde cero o mejora tus habilidades con clases personalizadas.</p>
+                <ul>
+                    <li>Comandos esenciales y administración del sistema.</li>
+                    <li>Configuración de entornos y automatización.</li>
+                    <li>Enfoque 100% práctico y adaptado a tus necesidades.</li>
+                    <li>Clases individuales para un aprendizaje efectivo.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container">
+        <h2>¿Listo para comenzar?</h2>
+        <p>Contáctame para agendar un servicio o recibir más información sobre el curso.</p>
+        <a href="https://wa.me/[TUNUMERO]" class="contacto-btn">Enviar mensaje por WhatsApp</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
